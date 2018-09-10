@@ -20,7 +20,7 @@ The original plugin was rewritten to follow the new [plugin standards](https://w
 
 ## INSTALL
 
-1) Copy the files in the /plugins/ folder to your RackTables plugins installation ( _/path/to/racktables/plugins/_ ).
+1) Copy the files in the /reports/ folder to your RackTables plugins installation ( _/path/to/racktables/plugins/_ ).
 
 2) Copy the CSS and JS files to the corresponding folders:
 ```
