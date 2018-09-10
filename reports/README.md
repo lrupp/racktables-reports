@@ -7,11 +7,12 @@ Mogilowski Sebastian <sebastian@mogilowski.net>
 
 1) Copy the files in the /reports/ folder to your RackTables plugins installation ( _/path/to/racktables/plugins/_ ).
 
-2) Copy the CSS and JS files to the corresponding folders:
+2) Copy the CSS and JS and image files to the corresponding folders:
 ```
-   mkdir -p '/path/to/racktables/wwwroot/{css,js}/report/'
+   mkdir -p '/path/to/racktables/wwwroot/{css,js,pix}/report/'
    cp -v 'css/style.css' '/path/to/racktables/wwwroot/css/report/style.css'
    cp -v "js/*" '/path/to/racktables/wwwroot/js/report/'
+   cp -v "pix/*" '/path/to/racktables/wwwroot/pix/report/'
 ```
 
 3) Activate the plugin via the _Configuration_ => _Plugins_ menu.
