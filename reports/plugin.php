@@ -15,8 +15,8 @@ function plugin_reports_info ()
         (       
                 'name' => 'reports',
                 'longname' => 'Custom Reports', 
-                'version' => '0.4.0',
-                'home_url' => 'http://www.mogilowski.net/lang/de-de/projects/racktables/'
+                'version' => '0.4.1',
+                'home_url' => 'https://github.com/lrupp/racktables-reports'
         );          
 }  
 
@@ -41,8 +41,8 @@ function plugin_reports_init ()
 
 function plugin_reports_install ()
 {
-	addConfigVar('REPORTS_CSS_PATH', 'css/report/', 'string', 'yes', 'no', 'no', 'Path to the CSS files of the Custom Reports plugin');
-	addConfigVar('REPORTS_JS_PATH', 'js/report/', 'string', 'yes', 'no', 'no', 'Path to the Javascript files of the Custom Reports plugin');
+	addConfigVar('REPORTS_CSS_PATH', 'css/report', 'string', 'yes', 'no', 'no', 'Path to the CSS files of the Custom Reports plugin');
+	addConfigVar('REPORTS_JS_PATH', 'js/report', 'string', 'yes', 'no', 'no', 'Path to the Javascript files of the Custom Reports plugin');
 	addConfigVar('REPORTS_SHOW_MAC_FOR_SWITCHES', 'yes', 'string', 'no', 'no', 'yes', 'Show MAC addresses in Custom Switch Report' );
 	return TRUE;
 }
