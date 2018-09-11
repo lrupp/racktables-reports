@@ -1,5 +1,5 @@
 <?php
-// Custom Racktables Report v.0.4.0
+// Custom Racktables Report v.0.4.1
 // List a type of objects in a table and allow to export them via CSV
 
 // 2016-02-04 - Mogilowski Sebastian <sebastian@mogilowski.net>
